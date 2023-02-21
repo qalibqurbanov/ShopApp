@@ -7,5 +7,6 @@ namespace ShopBrand.WebUI.Models.Entities
 {
     public class Contact
     {
+        public int ID { get; set; }
     }
 }
