@@ -1,0 +1,54 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>ed26bb0a-8206-4b2d-8cd9-0a76bbf0d4a6</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="3.1.32" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.32" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.32">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.32" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.32">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Views\Shared\Partials\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\riode\js\main.min.js" />
+    <None Include="wwwroot\riode\js\webfont.js" />
+    <None Include="wwwroot\riode\vendor\elevatezoom\jquery.elevatezoom.min.js" />
+    <None Include="wwwroot\riode\vendor\fontawesome-free\webfonts\fa-brands-400.svg" />
+    <None Include="wwwroot\riode\vendor\fontawesome-free\webfonts\fa-brands-400.woff2" />
+    <None Include="wwwroot\riode\vendor\fontawesome-free\webfonts\fa-regular-400.svg" />
+    <None Include="wwwroot\riode\vendor\fontawesome-free\webfonts\fa-regular-400.woff2" />
+    <None Include="wwwroot\riode\vendor\fontawesome-free\webfonts\fa-solid-900.svg" />
+    <None Include="wwwroot\riode\vendor\fontawesome-free\webfonts\fa-solid-900.woff2" />
+    <None Include="wwwroot\riode\vendor\imagesloaded\imagesloaded.pkgd.min.js" />
+    <None Include="wwwroot\riode\vendor\isotope\isotope.pkgd.min.js" />
+    <None Include="wwwroot\riode\vendor\jquery.count-to\jquery.count-to.min.js" />
+    <None Include="wwwroot\riode\vendor\jquery.countdown\jquery.countdown.min.js" />
+    <None Include="wwwroot\riode\vendor\jquery.gmap\jquery.gmap.min.js" />
+    <None Include="wwwroot\riode\vendor\jquery.plugin\jquery.plugin.min.js" />
+    <None Include="wwwroot\riode\vendor\jquery\jquery.min.js" />
+    <None Include="wwwroot\riode\vendor\magnific-popup\jquery.magnific-popup.min.js" />
+    <None Include="wwwroot\riode\vendor\nouislider\nouislider.min.js" />
+    <None Include="wwwroot\riode\vendor\owl-carousel\owl.carousel.min.js" />
+    <None Include="wwwroot\riode\vendor\parallax\parallax.min.js" />
+    <None Include="wwwroot\riode\vendor\photoswipe\default-skin\default-skin.svg" />
+    <None Include="wwwroot\riode\vendor\photoswipe\photoswipe-ui-default.min.js" />
+    <None Include="wwwroot\riode\vendor\photoswipe\photoswipe.min.js" />
+    <None Include="wwwroot\riode\vendor\sticky\sticky.min.js" />
+  </ItemGroup>
+
+</Project>
