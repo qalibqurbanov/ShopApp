@@ -22,6 +22,8 @@ namespace ShopBrand.WebUI.Models.DataContexts
         public DbSet<Contact> Contacts { get; set; }
         public DbSet<Brand> Brands { get; set; }
         public DbSet<ProductColor> Colors { get; set; }
+        public DbSet<ProductSize> Sizes { get; set; }
+        public DbSet<Category> Categories { get; set; }
 
     }
 

@@ -5,8 +5,9 @@ using System.Threading.Tasks;
 
 namespace ShopBrand.WebUI.Models.Entities
 {
-    public class Brand : BaseEntity
+    public class ProductSize : BaseEntity
     {
+        public string Abbreviatura { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
     }
